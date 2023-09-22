@@ -13,8 +13,8 @@ public class Program
             file.Close();
         }
         catch (Exception ex)
-        {
-            if (ex is FileNotFoundException) return false;
+        { 
+            return false;
         }
 
         return true;
